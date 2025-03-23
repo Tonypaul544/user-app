@@ -1,0 +1,122 @@
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --dark-gray: #333;
+  --alicelue: #f4f4f4;
+  --white: #f1f1f1;
+  --button-coral-color: coral;
+  --button-blue-color: #004499;
+  --header-font-size: 1.5rem;
+  --header-padding: 10px;
+  --header-color: white;
+  --header-bg: #a3a7a5;
+  --header-text-align: center;
+  --header-width: 80%;
+  --name-font-size: 1.2rem;
+  --name-padding: 10px;
+  --user-bg: #e8fbff;
+  --btn-container-bg: #9fa9a5;
+  --btn-container-padding: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background-color: var(--header-bg);
+  border-radius: 12px;
+  margin: 10px auto;
+  padding: var(--header-padding);
+  color: white;
+  text-align: center;
+}
+
+#addUserBtn {
+  width: 300px;
+  border-radius: 8px;
+  border: 1px solid var(--button-color);
+  background-color: var(--button-blue-color);
+  color: white;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+#userDiv {
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: start;
+  margin: auto;
+  margin-top: 4em;
+}
+
+#user {
+  width: 350px;
+  max-width: 450px;
+  min-width: 300px;
+  padding: 20px 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px auto;
+  border-radius: 9px;
+  box-shadow: 0 0 6px 4px rgba(0, 0, 0, .13);
+  background-color: var(--user-bg);
+  list-style: none;
+}
+
+#user h2 {
+  font-size: 1.5rem;
+  margin: 10px;
+}
+
+#userBtn {
+  width: 60%;
+  margin: start;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: var(--btn-container-bg); */
+  padding: var(--btn-container-padding);
+}
+
+#userBtn button {
+  width: 45%;
+  padding: 10px;
+  margin: 3px;
+  background-color: var(--button-coral-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#userBtn button#editUserBtn {
+  background-color: unset;
+  background-color: var(--button-blue-color);
+}
+
+#pfp {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  border-radius: 50%;
+  margin: auto;
+}

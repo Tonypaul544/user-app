@@ -1,0 +1,32 @@
+
+#userDetailDiv {
+  width: fit-content;
+  max-width: 450px;
+  min-width: 300px;
+  padding: 10px;
+  box-sizing: border-box;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  border-radius: 6px;
+  margin: 20px auto;
+  box-shadow: 0 0 6px 4px rgba(0, 0, 0, 0.1);
+  background-color: rgb(219, 234, 248);
+  color: #000;
+}
+
+#backHome {
+  width: 100px;
+  height: 25px;
+  border-radius: 6px;
+  border: 1px solid #000;
+  background-color: #004499;
+  color: white;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}

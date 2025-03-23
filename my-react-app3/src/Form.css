@@ -1,0 +1,48 @@
+
+:root {
+  --form-width: 350px;
+  --form-height: auto;
+  --form-bg: rgb(219, 234, 248);
+  --form-shadow: 1px 4px 3px rgba(0, 0, 0, 0.2);
+}
+
+#addUserForm {
+  width: var(--form-width);
+  background-color: var(--form-bg);
+  box-shadow: var(--form-shadow);
+  padding: 15px;
+  margin:30px auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+}
+
+#addUserForm input {
+  margin-bottom: 15px;
+  height: 35px;
+  border-radius: 8px;
+  padding: 10px;
+  border: 2.5px solid rgb(131, 99, 88);
+}
+
+#addUserForm label {
+  margin-left: 5px;
+}
+
+#addUserForm #submitUserBtn {
+  width: 120px;
+  height: 33px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border: 2px solid rgb(131, 99, 88);
+  background-color: rgb(232, 143, 92);
+  color: white;
+}
+
+#addUserForm #submitUserBtn:hover {
+  background-color: rgb(131, 99, 88);
+  
+}
